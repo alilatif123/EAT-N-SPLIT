@@ -1,0 +1,115 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  /* background-color: white; */
+  width: 1200px;
+
+  margin: auto;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 580px 700px;
+}
+.friends {
+  width: 500px;
+  padding: 10px 20px 10px 20px;
+  background-color: #feece2;
+}
+.singleFriend {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 10% 60% 20%;
+  align-items: center;
+}
+img {
+  border-radius: 50%;
+}
+.singleFriend h2 {
+  font-size: 20px;
+}
+.singleFriend h3 {
+  color: red;
+  font-size: 15px;
+}
+
+.singleFriend button {
+  background-color: #fba834;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 7px 7px 7px 7px;
+  cursor: pointer;
+  border-color: #fba834;
+  border-style: hidden;
+}
+
+.newFriendForm {
+  margin-top: 20px;
+  width: 500px;
+  padding: 10px 20px 10px 20px;
+  background-color: #feece2;
+}
+
+.inputForm {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  padding: 8px 0px 8px 0px;
+}
+.inputForm h3 {
+  font-size: 18px;
+}
+
+.inputForm input {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 10px 8px 10px;
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f7ded0;
+}
+
+.buttonFormAllign {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  padding: 8px 0px 10px 0px;
+}
+.buttonForm {
+  background-color: #fba834;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 7px 7px 7px 7px;
+  cursor: pointer;
+  border-color: #fba834;
+  border-style: hidden;
+}
+.billSplit {
+  width: 500px;
+  padding: 10px 20px 10px 20px;
+  background-color: #feece2;
+}
+
+.billSplit h2 {
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.select {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 10px 8px 10px;
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f7ded0;
+  cursor: pointer;
+}
+.readOnly {
+  background-color: #ccd3ca;
+}
