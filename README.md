@@ -54,6 +54,6 @@ npm start
 
 For any inquiries or feedback, feel free to reach out to the developer:
 
-- LinkedIn: [Alilatif123](www.linkedin.com/in/alilatif123)
+- LinkedIn: [Alilatif123](https://www.linkedin.com/in/alilatif123)
 - Email: chaudharyalilatif@gmail.com
 
