@@ -1,6 +1,5 @@
 # Eat-n-Split
 
-![Eat-n-Split Logo](https://github.com/alilatif123/EAT-N-SPLIT/blob/main/logo.png)
 
 Eat-n-Split is a simple React application designed to help users split bills among friends or roommates when dining out together. No more hassle with manual calculations - simply input the bill amount and the tool will handle the rest!
 
