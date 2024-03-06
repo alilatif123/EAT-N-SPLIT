@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Eat-n-Split
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Eat-n-Split Logo](https://github.com/alilatif123/EAT-N-SPLIT/blob/main/logo.png)
 
-## Available Scripts
+Eat-n-Split is a simple React application designed to help users split bills among friends or roommates when dining out together. No more hassle with manual calculations - simply input the bill amount and the tool will handle the rest!
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Dynamic Bill Splitting:** Easily split bills among any number of friends with just a few clicks.
+- **Real-time Updates:** See instant updates to balances as you input bill amounts and expenses.
+- **User-friendly Interface:** Intuitive design makes it easy for anyone to use, even without technical expertise.
+- **Add New Friend:** Seamlessly add a new friend to the bill-splitting group right from the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run Eat-n-Split locally, follow these steps:
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/alilatif123/EAT-N-SPLIT.git
+```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd EAT-N-SPLIT
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+4. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Visit `http://localhost:3000` in your web browser to view the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Upon launching the application, you'll see a list of friends along with their current balances.
+2. Click on a friend to select them and split a bill.
+3. Enter the bill amount and your expense to calculate the split.
+4. Select who will pay the bill from the dropdown menu.
+5. Click "Split Bill" to update the balances accordingly.
+6. To add a new friend, scroll to the bottom of the application interface, fill in the details for the new friend, including their name and an image URL (optional), then click the "Add" button.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any inquiries or feedback, feel free to reach out to the developer:
 
-### Code Splitting
+- LinkedIn: [Alilatif123](www.linkedin.com/in/alilatif123)
+- Email: chaudharyalilatif@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
